@@ -1,6 +1,3 @@
-
-
-
 (function () {
 
 function validateForm() {
@@ -10,17 +7,17 @@ var emailField = document.forms["signup-form"]["email"].value;
 var phoneField = document.forms["signup-form"]["phone"].value;
 
 if (nameField === "") {
-alert("You must fill out the Name be");
+alert("You must fill out the Name before going forward");
 return false;
 }
 
 if (emailField === "") {
-alert("You must fill out the Name be");
+alert("You must fill out the Name before going forward");
 return false;
 }
 
 if (phoneField === "") {
-alert("You must fill out the Name be");
+alert("You must fill out the Name before going forward");
 return false;
 }
 
