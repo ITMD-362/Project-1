@@ -1,3 +1,4 @@
+
 (function () {
 
 function validateForm() {
@@ -28,3 +29,9 @@ document.forms["signup-form"].addEventListener('submit', validateForm);
 })();
 
 
+//When user clicks the photos it will take the user to the website associated wiht the photo
+$(document).ready(function(){
+$("#signup-form").click(function(){
+window.location.href = "https://www.bodybuilding.com/";
+});
+});
