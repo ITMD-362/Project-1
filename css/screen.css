@@ -207,12 +207,12 @@ html {
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 3em;
   line-height: 1.5em;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-img {
+img 
   min-height: 100%;
   overflow: hidden;
 }
@@ -232,11 +232,12 @@ img {
 
 #signup-form {
   padding-top: 2em;
+  line-height: 2em;
 }
 
 .button {
     background-color: #4CAF50;
-    border: none;
+    border: gray;
     color: white;
     padding: 15px 32px;
     text-align: center;
